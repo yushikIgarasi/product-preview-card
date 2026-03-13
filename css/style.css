@@ -106,7 +106,7 @@ padding: 30px;
   font-family: 'Montserrat';
   font-weight: 700;
   color: var(--white);
-  background-color: var(--green-700);
+  background-color: var(--green-500);
   width: 100%;
   padding: 15px 0px;
   margin-top: 35px;
@@ -116,6 +116,9 @@ align-items: center;
 justify-content: center;
 gap: 10px;
 }
+button:focus {
+  outline: 3px solid var(--green-700);
+  outline-offset: 2px; }
 .button__img{
 }
 
